@@ -64,11 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Añadir clase para la animación del logo
+
     const logoBox = document.querySelector('.box.logo');
     logoBox.classList.add('animate-logo');
 
-    // Añadir clase para la animación de la imagen
     const imageBox = document.querySelector('.box.image');
     imageBox.classList.add('animate-image');
 });
